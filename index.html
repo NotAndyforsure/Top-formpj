@@ -1,45 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
-    <link href="index.css" rel="stylesheet" type="text/css">
-    <script rel="text/javascript" src="index.js" defer></script>
-</head>
 
-<body>
-    
-    <main>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+        <link href="index.css" rel="stylesheet" type="text/css">
+       
+    </head>
 
-        <div class="mainleft"> 
-            
-            
+    <body>
+        
+        <main>
 
-            <div class="brand">
-
-                <img src="/files/odin-lined.png" alt="logo" class="logo"></img>
-            </div>
-            
-            <span class="artist">Photo by <a target="_blank" alt="background photo artist"  href="https://unsplash.com/@haliewestphoto">
+            <div class="mainleft"> 
                 
-                Halie west</a> on Unsplash
-            
-            
-            </span>
+                
+
+                <div class="brand">
+
+                    <img src="/files/odin-lined.png" alt="logo" class="logo"></img>
+                </div>
+                
+                <span class="artist">Photo by <a target="_blank" alt="background photo artist"  href="https://unsplash.com/@haliewestphoto">
                     
-        </div>
+                    Halie west</a> on Unsplash
+                
+                
+                </span>
+                        
+            </div>
 
-        <div class="mainright">
+            <div class="mainright">
 
+
+                <div class="rightwrapper">
+
+                    <div class="text">
+
+                        <p>The Odin project practice forms by <a href="https://github.com/search?q=user%3ANotAndyforsure+NotAndyforsure&type=users" target="_blank" id="profile">NotAndyforsure</a>. here to test out client side validation, form inputs and 
+                            responsiveness. I will be trying to match the task to the design template given as a practice for a real client to dev practice.</p> 
+                            
+
+                    </div>
+
+
+                    <div class="form">
+
+
+                        <form action="">
+
+                            <fieldset>
+
+                                <legend><h2>Let's do this!</h2></legend>
+
+                                <div class="fieldtop"> 
+
+                                    <div>
+                                        <label for="name">FIRST NAME</label>
+                                        <input id="name" type="text"  minlength="3" name="name" alt="name" pattern="[A-Z][a-z]+">
+                                    </div>
+                                
+                                    <div>
+                                        <label for="lastn">LAST NAME</label>
+                                        <input type="text" id="lastn"  minlength="3" name="last_name"alt="last name" pattern="[A-Z][a-z]+">
+                                    </div>
+                                
+                                </div>
+
+                                <div class="fieldmiddle">
+
+                                    <div>
+                                        <label for="email">EMAIL</label>
+                                        <input type="email" id="email" name="email" alt="email">
+                                    </div>
+
+
+                                    <div>
+                                        <label for="tel">PHONE NUMBER</label>
+                                        <input type="tel" id="tel" alt="telephone" minlength="9"  name="phone" pattern="\d+">
+                                    </div>
+
+                                </div>
+                                
+                                <div class="fieldbottom">
+                                
+                                    <div>
+                                        <label for="passwrd">PASSWORD</label>
+                                        <input type="password" id="passwrd" alt="password" minlength="6" maxlength="15" name="password" pattern="[\w]+">
+                                    </div>
+
+                                    <div>
+                                        <label for="repasswrd">CONFIRM PASSWORD</label>
+                                        <input type="password" id="repasswrd" alt="password confirmation" minlength="6" maxlength="15" name="password" pattern="[\w]+">
+                                    </div>
+                                    
+                                </div>
+
+                            </fieldset>
+
+
+                            <div class="btnsec">
+                                <button>Create Account</button>
+                                <p>Already have an account? <span>Log in</span></p>
+                            </div>
+
+                        </form>
+
+                        
+                    </div>
+                
+                </div>
             
 
+                
 
-        </div>
 
-    </main>
+            </div>
 
-</body>
+        </main>
+
+    </body>
 
 </html>
