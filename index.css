@@ -104,7 +104,7 @@
     flex-direction:column;
     align-items:center;
     justify-content:center;
-    overflow: auto;
+    overflow-y:scroll;
 
 }
 
@@ -147,14 +147,14 @@
     display:flex;
     align-items:start;
     flex-direction:column;
-   flex:1 1 auto;
+    flex:1 1 auto;
+    border-top:1px solid lightgray;
+    margin-top: 3rem;
 
 }
 
-legend{
-    background:hsl(0, 0%, 100%);
-    width:100%;  
-    border-top:1px solid lightgray;
+.legend{
+    background:hsl(0, 0%, 100%); 
     padding-left:3rem;
 }
 
@@ -222,7 +222,7 @@ button{
 }
 
 .btnsec{
-    margin-top: 3rem;
+    
     margin-left:3rem;
     font-weight:bolder;
     
@@ -293,10 +293,11 @@ button{
     .fieldset{
         background:hsl(0, 0%, 100%);
         height:50vh;
+        margin-bottom: 1rem;
     }
 
     .btnsec{
-        margin-top: 1rem;
+       
         margin-left:0.7rem;
         font-weight:bolder;
         
@@ -308,6 +309,11 @@ button{
         font-size:1.3rem;
         width:90%;
     
+    }
+
+    .legend{
+
+      padding-left:1rem;
     }
   }
 
