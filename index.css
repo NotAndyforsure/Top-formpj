@@ -39,7 +39,7 @@
   }
 
   .brand{
-    height:15vh;
+    height:auto;
     width:100%;
     background:hsla(0, 0%, 0%, 0.4);
     display:flex;
@@ -138,7 +138,7 @@
 .fieldset{
 
     width:100%;
-    height:28vh;
+    height:auto;
     background:hsl(0, 0%, 100%);
     margin:0;
     padding:0;
@@ -149,7 +149,7 @@
     flex-direction:column;
     flex:1 1 auto;
     border-top:1px solid lightgray;
-    margin-top: 3rem;
+    margin-bottom: 3rem;
 
 }
 
@@ -292,8 +292,7 @@ button{
 
     .fieldset{
         background:hsl(0, 0%, 100%);
-        height:50vh;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
     }
 
     .btnsec{
@@ -314,6 +313,11 @@ button{
     .legend{
 
       padding-left:1rem;
+    }
+
+    input{
+
+      width:13rem;
     }
   }
 
